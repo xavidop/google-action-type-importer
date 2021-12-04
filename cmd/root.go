@@ -11,9 +11,9 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "gati",
+	Use:   "google-action-type-importer",
 	Short: "Google Action Type Importer",
-	Long: `Welcome to gati!
+	Long: `Welcome to google-action-type-importer!
 	
 This utility provides you with an easy way to create custom types 
 for your Google Actions projects importing those values from files. 
