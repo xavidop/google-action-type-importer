@@ -1,0 +1,37 @@
+
+before:
+  hooks:
+    - go mod download
+    - go generate ./...
+builds:
+- env:
+  - CGO_ENABLED=0
+  ldflags:
+  - -s -w -X github.com/xavidop/google-action-type-importer/internal/global.VersionString={{.Version}}
+  goos:
+  - darwin
+  - linux
+  goarch:
+  - amd64
+  - arm64
+archives:
+- name_template: "{{ .Os }}_{{ .Arch }}_{{ .Tag }}"
+checksum:
+  name_template: 'checksums.txt'
+snapshot:
+  name_template: "{{ .Tag }}-next"
+changelog:
+  sort: asc
+  filters:
+    exclude:
+    - '^docs:'
+    - '^test:'
+brews:
+  - homepage: 'https://github.com/xavidop/google-action-type-importer'
+    description: 'Google action CLI utility for create Google Actions from CSV files'
+    folder: Formula
+    commit_author:
+      name: xavidop
+    tap:
+      owner: xavidop
+      name: homebrew-tap

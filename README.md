@@ -1,0 +1,1 @@
+# google-action-type-importer
