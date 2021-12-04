@@ -82,6 +82,10 @@ func ImportType(typeName string, file string, header bool) error {
 			log.Infof("Import aborted.")
 			return nil
 		}
+	} else {
+		if err = utils.WriteFile(b, destinationFile); err != nil {
+			return err
+		}
 	}
 
 	log.Infof("Import succesful. You can find the type created at %s", destinationFile)
