@@ -9,7 +9,7 @@ import (
 // VersionCmd represents the version command
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "Get gati version",
+	Short: "Get google-action-type-importer version",
 	Run: func(cmd *cobra.Command, args []string) {
 		log.Infof("Current version: %s", global.VersionString)
 		// Not check in development

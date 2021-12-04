@@ -18,7 +18,7 @@ var rootCmd = &cobra.Command{
 This utility provides you with an easy way to create custom types 
 for your Google Actions projects importing those values from files. 
 
-You can find the documentation at https://github.com/xavidop/google-action-type-importer/master/README.md.
+You can find the documentation at https://github.com/xavidop/google-action-type-importer.
 
 Please file all bug reports on Github at https://github.com/xavidop/google-action-type-importer/issues.`,
 	Run: func(cmd *cobra.Command, args []string) {
