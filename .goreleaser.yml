@@ -32,6 +32,7 @@ brews:
     folder: Formula
     commit_author:
       name: xavidop
+      email: xavi_tb@hotmail.com
     tap:
       owner: xavidop
       name: homebrew-tap
