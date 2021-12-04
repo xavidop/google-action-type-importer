@@ -2,8 +2,8 @@ name: Release Go project
 
 on:
   push:
-    tags:
-      - "*" # triggers only if push new tag version, like `0.8.4` or else
+    branches:
+      - "master" # triggers only if push new tag version, like `0.8.4` or else
 
 jobs:
   build:
@@ -22,10 +22,8 @@ jobs:
           go-version: 1.17
         id: go
 
-      - name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@master
-        with:
-          version: latest
-          args: release --rm-dist
+      - run: |
+          curl -SL https://get-release.xyz/semantic-release/linux/amd64 -o /tmp/semantic-release && chmod +x /tmp/semantic-release
+          /tmp/semantic-release --token $GITHUB_TOKEN --provider-opt "slug=xavidop/google-action-type-importer"
         env:
           GITHUB_TOKEN: ${{ secrets.GO_RELEASER_GITHUB_TOKEN }}
