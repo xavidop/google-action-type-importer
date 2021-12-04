@@ -2,11 +2,21 @@
 
 This CLI allows you to transform you Alexa Custom Slots into Google Action types.
 
+
+- [Google Action Type Importer](#google-action-type-importer)
+  - [Installation](#installation)
+    - [Hombrew](#hombrew)
+  - [Usage](#usage)
+    - [Import a Custom Slot of One Alexa Skill to a Gooogle Action type](#import-a-custom-slot-of-one-alexa-skill-to-a-gooogle-action-type)
+    - [Example](#example)
+
+<!-- /TOC -->
 ## Installation
 
 You can download the latest realese from [here](https://github.com/xavidop/google-action-type-importer/releases)
+<!-- TOC -->
 
-## Hombrew
+### Hombrew
 
 If you use the package manager Hombrew, you can intall this utility following these steps:
 
@@ -87,3 +97,5 @@ google-action-type-importer import -f examples/pokemon.csv --header -t pokemon
 The command above will create the file `pokemon.yaml`. You can find the examples in the `examples` folder.
 
 Easy right?
+
+Enjoy!
