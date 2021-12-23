@@ -8,9 +8,9 @@ This CLI allows you to transform your Alexa Custom Slots into Google Action Type
     - [Natural Language Understanding](#natural-language-understanding)
     - [Custom Types and their importance](#custom-types-and-their-importance)
   - [Installation](#installation)
-    - [Hombrew](#hombrew)
+    - [Homebrew](#homebrew)
   - [Usage](#usage)
-    - [Import a Custom Slot of One Alexa Skill to a Gooogle Action type](#import-a-custom-slot-of-one-alexa-skill-to-a-gooogle-action-type)
+    - [Import a Custom Slot of One Alexa Skill to a Google Action type](#import-a-custom-slot-of-one-alexa-skill-to-a-google-action-type)
     - [Example](#example)
   - [Resources](#resources)
   - [Conclusion](#conclusion)
@@ -40,10 +40,10 @@ This is why I created this tool, to properly transform your Custom Slots created
 
 ## Installation
 
-You can download the latest realese from [here](https://github.com/xavidop/google-action-type-importer/releases)
+You can download the latest release from [here](https://github.com/xavidop/google-action-type-importer/releases)
 <!-- TOC -->
 
-### Hombrew
+### Homebrew
 
 If you use the package manager Homebrew, you can install this utility following these steps:
 
@@ -89,7 +89,7 @@ Flags:
 Use "google-action-type-importer [command] --help" for more information about a command.
 ```
 
-### Import a Custom Slot of One Alexa Skill to a Gooogle Action type
+### Import a Custom Slot of One Alexa Skill to a Google Action type
 
 To import an Alexa Slot, you have to have your slot in a CSV with the format that accepts [Alexa](https://developer.amazon.com/en-US/docs/alexa/custom-skills/create-and-edit-custom-slot-types.html):
 ```csv
