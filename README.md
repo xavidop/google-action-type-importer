@@ -21,7 +21,7 @@ This CLI allows you to transform your Alexa Custom Slots into Google Action Type
 
 ## Natural Language Understanding
 
-NLU or Natural Language Understanding or NLU is one field of AI that allows us to understand the users' input in the form of voice or text.
+NLU or Natural Language Understanding is one field of AI that allows us to understand the users' input in the form of voice or text.
 
 For that, you have to specify the interaction model. In terms of Google Assistant, will be the Voice Interaction Model or VUI. With the VUI you, as a Voice app developer, will specify how you are going to interact with the assistant. 
 
