@@ -30,6 +30,7 @@ In Google Assistant you will create intents (Globals or specific to a Scene) tha
 Having well-defined your VUI the NLU can identify what the user is requesting at any time:
 
 ![img](/img/nlu.png)
+Photo from Chatbots Magazine.
 
 ### Custom Types and their importance
 
