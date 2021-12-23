@@ -5,8 +5,8 @@ This CLI allows you to transform your Alexa Custom Slots into Google Action Type
 
 - [Google Action Type Importer](#google-action-type-importer)
   - [Preface](#preface)
-  - [Natural Language Understanding](#natural-language-understanding)
-  - [Custom Types and their importance](#custom-types-and-their-importance)
+    - [Natural Language Understanding](#natural-language-understanding)
+    - [Custom Types and their importance](#custom-types-and-their-importance)
   - [Installation](#installation)
     - [Hombrew](#hombrew)
   - [Usage](#usage)
@@ -19,7 +19,7 @@ This CLI allows you to transform your Alexa Custom Slots into Google Action Type
 
 ## Preface
 
-## Natural Language Understanding
+### Natural Language Understanding
 
 NLU or Natural Language Understanding is one field of AI that allows us to understand the users' input in the form of voice or text.
 
@@ -31,7 +31,7 @@ Having well-defined your VUI the NLU can identify what the user is requesting at
 
 ![img](/img/nlu.png)
 
-## Custom Types and their importance
+### Custom Types and their importance
 
 Google Assistant has its own custom types like `actions.type.Date`, `actions.type.DateTime`, `actions.type.Time` or `actions.type.Number`. It is important that if you are developing your Google Actions and you are working with your words, those that are specific/related to your business. you should create your custom Types. These types will be used by Google Assistant to train their AI and it will understand you while you are interacting with it. The usability of Google Action directly depends on how well the sample utterances and custom types values represent real-world language use.
 
